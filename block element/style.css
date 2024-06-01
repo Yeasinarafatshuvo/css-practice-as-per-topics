@@ -1,0 +1,18 @@
+h1{
+    background-color: green;
+}
+
+.container {
+    text-align: center; /* Centering the boxes */
+}
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: lightblue;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px; /* Vertically center the text */
+}

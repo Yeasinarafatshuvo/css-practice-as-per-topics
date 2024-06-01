@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    background-color: cadetblue;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+}
+
+.menu a:hover{
+    background-color: gray;
+}
+
+@media screen and (max-width: 600px) {
+    .menu{
+        flex-direction: column;
+        padding: 0 10px;
+      
+    }
+    .menu a {
+        background-color: indigo;
+        text-align: center;
+        margin: 10px 0;
+        border: 10px;
+        border-radius: 10px;
+    }
+}
+

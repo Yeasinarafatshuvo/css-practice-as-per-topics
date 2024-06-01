@@ -1,0 +1,18 @@
+.flex-container{
+    background-color: lightcoral;
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction: row-reverse; */
+    flex-flow: wrap row;
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.flex-container > div{
+    font-size: 35px;
+    margin: 10px;
+    background-color: lightseagreen;
+    padding: 20px;
+}
